@@ -9,7 +9,7 @@ This BMI (Body Mass Index) calculator is a Java application that allows users to
    [Download BMI Calculator](https://github.com/Tomiloba21/BodyMassCalculator/releases/download/v1.0/Bmi.exe)
 
 2. **Running the Application**:
-   - **Windows**: Double-click the downloaded `.exe` file to run the application.
+   - **Windows**: Double-click the downloaded `.jar` file to run the application.
      <!--
          - **Linux/Mac**: Run the following command in the terminal:
          ```bash
