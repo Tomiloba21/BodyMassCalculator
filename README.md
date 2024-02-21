@@ -6,7 +6,7 @@ This BMI (Body Mass Index) calculator is a Java application that allows users to
 
 1. **Download the Application**: You can download the BMI calculator application from the provided link:
 
-  <!-- [Download BMI Calculator](link_to_your_exe_file.exe)->
+    [Download BMI Calculator]Bmi.exe
 
 2. **Running the Application**:
    - **Windows**: Double-click the downloaded `.exe` file to run the application.
