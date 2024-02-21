@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Body Mass Index:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Body_Mass_Index_jar</output-path>
+    <root id="archive" name="Body Mass Index.jar">
+      <element id="module-output" name="Body Mass Index" />
+    </root>
+  </artifact>
+</component>
