@@ -10,10 +10,12 @@ This BMI (Body Mass Index) calculator is a Java application that allows users to
 
 2. **Running the Application**:
    - **Windows**: Double-click the downloaded `.exe` file to run the application.
-   - **Linux/Mac**: Run the following command in the terminal:
-     ```bash
-     java -jar bmi_calculator.jar
-     ```
+     <!--
+         - **Linux/Mac**: Run the following command in the terminal:
+         ```bash
+         java -jar bmi_calculator.jar
+         ```
+     -->
 
 3. **Using the Application**:
    - Upon launching the application, you will see a simple user interface where you can enter your height (in meters) and weight (in kilograms).
