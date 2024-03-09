@@ -1,10 +1,23 @@
 import javax.swing.*;
 import java.text.DecimalFormat;
+
+/**
+ * This class represents a Body Mass Index (BMI) calculator.
+ */
 public class BMI {
+    // DecimalFormat object for formatting BMI values
     private static final DecimalFormat df = new DecimalFormat("0.00");
+
+    // Instance variables to store weight in kilograms and height in meters
     private  int weight;
     private double height;
 
+        /**
+     * Constructor for creating a BMI object with given weight and height.
+     * 
+     * @param weight the weight of the person in kilograms
+     * @param height the height of the person in meters
+     */
     public BMI(int weight, double height) {
         this.weight = weight;
         this.height = height;
@@ -32,19 +45,44 @@ public class BMI {
         }
 
     }
-
+    /**
+    *These getter and setter methods provide encapsulation, 
+    *allowing controlled access to the instance variables 
+    *while protecting them from direct manipulation.
+    */
+    
+    /**
+     * Returns the weight of the person in kilograms.
+     * 
+     * @return the weight of the person
+     */
     public int getWeight() {
         return weight;
     }
-
+    
+    /**
+     * Sets the weight of the person in kilograms.
+     * 
+     * @param weight the new weight to set
+     */
     public void setWeight(int weight) {
         this.weight = weight;
     }
-
+    
+    /**
+     * Returns the height of the person in meters.
+     * 
+     * @return the height of the person
+     */
     public double getHeight() {
         return height;
     }
-
+    
+    /**
+     * Sets the height of the person in meters.
+     * 
+     * @param height the new height to set
+     */
     public void setHeight(int height) {
         this.height = height;
     }
